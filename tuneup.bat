@@ -55,16 +55,16 @@ cls
 cls
 	
 	:: MalwareBytes
-	winget install "Malwarebytes" -s winget
+	winget install -e --id Malwarebytes.Malwarebytes
 	
 	:: CCleaner
-	winget install "CCleaner" -s winget
+	winget install -e --id Piriform.CCleaner
 	
 	:: VLC
-	winget install "VLC media player" -s winget
-	
+	winget install -e --id VideoLAN.VLC
+
 	:: Firefox
-	winget install "Mozilla Firefox" -s winget
+	winget install -e --id Mozilla.Firefox
 	
 	cls
 	echo. Tools Installed
@@ -125,8 +125,8 @@ cls
 :: **************************************
 :info
 cls
-	echo. HCS Tune-Up Script V-1.0.0
-	echo. Made by bit-tiger for HADLOCK COMPUTER SERVICES
+	echo. HCS Tune-Up Script V-1.1.0
+	echo. Made by bit-tiger updated by Eman1530 for HADLOCK COMPUTER SERVICES
 	
 	pause
 	goto :menu
