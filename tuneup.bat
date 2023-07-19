@@ -1,17 +1,3 @@
-@echo off
-title HCS Tune-Up Script V1.1.0
-
-NET SESSION >nul 2>&1
-IF %errorlevel% EQU 0 (
-	goto :menu
-) ELSE (
-	color 4f
-	
-	echo. ERROR: Run as administrator.
- Pause
-
-cls
-	
 winget install -e --id Malwarebytes.Malwarebytes
 winget install -e --id Piriform.CCleaner
 winget install -e --id VideoLAN.VLC
