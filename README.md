@@ -17,3 +17,5 @@ features:
 
 
 Updated By Eman1530 on July 19th 2023
+
+Ver 1.1.0
